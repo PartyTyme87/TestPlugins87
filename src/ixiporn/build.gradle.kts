@@ -1,7 +1,3 @@
-plugins {
-    id("com.lagradost.cloudstream3.gradle")
-}
-
 cloudstream {
     // This must match your exact Plugin class name
     setPlugin("com.PartyTyme87.ixiporn.ixipornProvider") 
