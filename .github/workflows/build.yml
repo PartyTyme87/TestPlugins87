@@ -8,9 +8,9 @@ concurrency:
 on:
   push:
     branches:
-      # choose your default branch
-      - master
       - main
+      - master
+  workflow_dispatch: 
     paths-ignore:
       - '*.md'
 
