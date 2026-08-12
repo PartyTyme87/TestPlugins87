@@ -1,6 +1,6 @@
 cloudstream {
-    // This must match your exact Plugin class name
-    setPlugin("com.PartyTyme87.ixiporn.ixipornProvider") 
+    // This MUST point to your Plugin class, not your Provider class
+    setPlugin("com.PartyTyme87.ixiporn.IxipornPlugin") 
     name = "Ixiporn"
     description = "My custom extension"
     authors.add("PartyTyme87")
