@@ -5,7 +5,7 @@ import com.lagradost.cloudstream3.*
 import com.lagradost.cloudstream3.utils.*
 
 class ixiporn : MainAPI() {
-    override var mainUrl              = "https://ixiporn.org"
+    override var mainUrl              = "https://ixiporn.live"
     override var name                 = "ixiporn"
     override val hasMainPage          = true
     override var lang                 = "hi"
